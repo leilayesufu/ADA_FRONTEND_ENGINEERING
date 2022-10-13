@@ -12,7 +12,7 @@ html{
 .card{
   display: flex;
   flex-direction: column;
-  justify-contents: center;
+  justify-content: center;
   align-items: center;
   border: 3px solid #002B5B;
   margin: 9em;
@@ -37,6 +37,6 @@ hr{
   color: #8FE3CF;
   justify-content: flex-start;
   align-items: flex-start;
-  align-contents: flex-start;
+  align-content: flex-start;
   font-family: Monospace;
 }
