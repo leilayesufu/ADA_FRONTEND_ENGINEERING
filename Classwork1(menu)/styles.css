@@ -38,3 +38,6 @@ hr{
   align-content: flex-start;
   font-family: Monospace;
 }
+
+.menu_item{}
+    margin: 0.5em;
