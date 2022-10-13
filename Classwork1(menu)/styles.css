@@ -39,5 +39,6 @@ hr{
   font-family: Monospace;
 }
 
-.menu_item{}
+.menu_item{
     margin: 0.5em;
+}
