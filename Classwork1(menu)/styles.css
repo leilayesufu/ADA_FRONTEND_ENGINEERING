@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html{
   background: url('https://source.unsplash.com/1600x900/?bakery █');
-  box-sixing: border-box;
   max-height: 100%;
 }
 
