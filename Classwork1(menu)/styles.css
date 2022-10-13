@@ -13,8 +13,8 @@ html{
   justify-content: center;
   align-items: center;
   border: 3px solid #002B5B;
-  margin: 9em;
-  margin-top:5em;
+  margin: auto;
+  width: 50%;
   background: #000000aa;
   border-radius: 20%;
 }
