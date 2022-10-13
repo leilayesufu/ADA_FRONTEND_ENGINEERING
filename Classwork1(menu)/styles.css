@@ -25,7 +25,7 @@ html{
   text-decoration: underline; 
   text-transform: capitalize;
 }
-.card h1 hover:{
+.card h1 :hover{
   color: #8FE3CF;
   font-weight: 900;
    text-decoration: overline; 
@@ -49,4 +49,12 @@ hr{
 
 .menu_item{
     margin: 0.5em;
+}
+
+footer{
+  color: inherit;
+}
+
+footer a{
+  color: inherit;
 }
