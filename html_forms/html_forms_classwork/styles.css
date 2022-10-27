@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+height: 100%
+}
+
+body{
+    background-image: url('./images/IMG_1080.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+h1{
+    margin: 1em;
+    color: #153462;
+}
+
+form{
+    margin: 1em;
+    border: 1px solid #153462;
+    color: #153462;
+    background: #FFB9B9;
+    border-radius: 0.5em;
+    font-size: larger;
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 1px 1px 1px #153462;
+}
+
+input{
+    margin: 1em;
+    cursor: pointer;
+}
+
+input :focus{
+    font-size: larger;
+}
+button{
+    height: 3em;
+    width: 5em;
+    background-color: #153462aa;
+    border: 1px solid #000000aa;
+    border-radius: 1em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+button :hover{
+ font-size: larger;
+}
+
+footer{
+    color: #153462;
+}

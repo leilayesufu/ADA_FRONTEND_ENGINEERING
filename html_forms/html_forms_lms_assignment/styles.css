@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: pink;
+}
+.main{
+    margin: 1em;
+    padding: 1em;
+}
+
+input{
+    margin: 0.5em;
+}
+
+button{
+    margin: 1em;
+    color: blue;
+}
+
+button :hover{
+    font-size: larger;
+}

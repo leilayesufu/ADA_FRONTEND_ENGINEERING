@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Forms Classwork</title>
+        <meta name="description" content="HTML CSS FORMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+       <div class="main">
+        <h1>Help me get to know you!</h1>
+        <form action="mailto:leilayesufu2002@gmail.com" target="_self" method="get" autocomplete="on" novalidate>
+            <label for="name">Name: </label>
+            <input id="name" type="text" placeholder="Name" size="50"><br>
+
+            <label for="suffix">Suffix </label>
+            <input id="suffix" type="text" value=".py" readonly><br>
+
+            <label for="password">Create a password: </label>
+            <input id="password" type="password" placeholder="password" required><br>
+
+            <label for="phoneNo">Input your telephone no: </label>
+            <input id="phoneNo" type="tel" placeholder="telephone no"><br>
+
+            <div class="gender">Gender:<br>
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="female" name="gender">
+
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="male" name="gender">
+            </div>
+
+            <div class="hobbies">Choose your favorite hobbies<br>
+                <label for="dance">Dancing</label>
+                <input type="checkbox" id="dance" value="dance" name="hobbies">
+
+                <label for="sing">Singing</label>
+                <input type="checkbox" id="sing" value="sing" name="hobbies">
+
+                <label for="read">Reading</label>
+                <input type="checkbox" id="read" value="read" name="hobbies">
+
+                <label for="chess">Playing Chess</label>
+                <input type="checkbox" id="chess" value="chess" name="hobbies">
+
+                <label for="code">Coding</label>
+                <input type="checkbox" id="code" value="code" name="hobbies">
+            </div>
+            
+            <button onClick="alert(`Thank you for filling my form`)" type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <footer>Designed by Leila Yesufu</footer>
+       </div>
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Forms</title>
+        <meta name="description" content="All about HTML forms">
+        <meta name="keywords" content="HTML, forms, CSS">
+        <meta name="author" content="Leila Yesufu">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./favicon (2).ico">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Create an account with Leils!</h1>
+            
+            <form action="mailto:leilayesufu2002@gmail.com" method="get" class="leilsForm" autocomplete="on" target="_self">
+                
+             <section class="personalDetails">
+                <div class="firstName">
+                <label for="fname">First Name:</label>
+                <input type="text" name="fname" id="fname" placeholder="Leila" autofocus required>
+                </div>
+
+                <div class="lastName">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Yesufu" required>
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="leilayesufu2002@gmail.com" readonly>
+                </div>
+
+                <div class="age">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" min="18" max="60" step="2" disabled>
+                </div>
+
+                <div class="telephone">
+                    <label for="tel">Telephone:</label>
+                    <input type="tel" id="tel" value="08034509123" size="50"  pattern="[0-9]">
+                </div>
+                </section>
+
+                <section class="accountDetails">
+                    <div class="password">
+                        <label for="password">Create a password</label>
+                        <input type="password" id="password" required>
+                        </div>
+        
+                        <label for="accountType">Select your account type</label>
+                        <select id="accountType">
+                            <option value="personal">Personal</option>
+                            <option value="public">Public</option>
+                        </select><br>
+                </section>
+               
+
+                <div class="cv">Attach your cv/portfolio
+                    <label for="cv"></label>
+                <input type="file" id="cv" multiple>
+                </div>
+                
+                <div class="feedback">Comments
+                    <textarea rows="8" cols="30"></textarea>
+                </div>
+                
+                <fieldset>
+                    <legend>Do you agree to the terms</legend>
+                    <label><input type="radio" name="radio" value="yes">Yes</label>
+                    <label><input type="radio" name="radio" value="no">No</label>
+                </fieldset>
+
+                <button type="submit" onclick="alert('response recorded')">Submit</button>
+            </form>
+
+        <!-- other form elements include -->
+        <form action="index.html" novalidate>
+            <label for="soda">Choose your <span>soda </span>from the list:</label>
+                <input list="sodas" name="soda" id="soda">
+
+                    <datalist id="sodas">
+                        <option value="fanta" name="sodas">
+                        <option value="sprite" name="sodas">
+                        <option value="Coke" name="sodas">
+                     </datalist>
+
+            <div class="checkbox">Method of transportation<br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> I have a bike</label><br>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> I have a car</label><br>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> I have a boat</label><br>
+            </div>
+
+            <button type="submit" onclick="alert('response recorded')">Submit</button>
+            <button type="reset" onclick="alert(`reset`)">Reset</button>
+        </form>
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
