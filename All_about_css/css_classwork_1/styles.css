@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    border: 1px dashed yellow;
+    border-radius: 8px;
+    margin: 25px 50px;
+    padding: 30px;
+    outline: 10px solid green;
+}
+
+.circle{
+    border-radius: 50%;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    color: rgba(0,0,255,0.2);
+    text-align: center;
+    margin: 0.5em;
+    background-color: rgb(234,0,255);
+    padding: 10px;
+    text-decoration-line: overline underline;
+    
+}
+
+.main p{
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+    text-decoration-line: line-through;
+    text-shadow: 2px 5px pink;
+
+}

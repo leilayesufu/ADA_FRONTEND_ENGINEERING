@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+    border: 3px dashed black;
+    border-radius: 1em;
+    margin: 3em;
+    padding: 8em;
+}
+
+.main h2{
+    margin: 1em;
+    color: deeppink;
+}
+
+/* pseudo element selector */
+h2::first-letter{
+    font-family: cursive;
+}
+
+#exclamation:hover{
+    color: blueviolet;
+}
+
+h1{
+    margin: 1em;
+    color: blueviolet;
+}
+
+li{
+    margin: 0.5em;
+    color: green;
+}
+
+li span{
+    color: blue;
+}
+
+footer{
+    margin: 2em;
+}
+/* attribute selector */
+
+a[target=_blank] {
+    color: black;
+}
+
+/* pseudo class selector */
+a:visited{
+    color: rgba(0,12,8,0);
+}
