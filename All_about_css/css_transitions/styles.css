@@ -18,6 +18,13 @@ body{
 }
 .container:hover{
     transform: skew(20deg, 30deg);
+    animation-name: color;
+    animation-duration: 2s;
+}
+
+@keyframes color{
+    0% from {color: red;}
+    100% from {color: blue;}
 }
 
 img{
