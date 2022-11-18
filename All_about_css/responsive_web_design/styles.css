@@ -46,6 +46,11 @@ h3{
     .col-s-12{
         width: 100%;
     }
+
+    [class*="col-"]{
+        float: left;
+        padding: 10px;
+    }
 }
 
 /* extremely large screens */
