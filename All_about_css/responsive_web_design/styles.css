@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* responsive image */
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+div,h3{
+    display: inline;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    margin: 1em;
+}
+
+.description, .description li{
+    padding: 0.5em;
+}
+
+h3{
+    text-align: center;
+}
+
+
+/* for mobile view, width is 100% for all; */
+@media screen and (max-width:600px) {
+    [class*="col-"]{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .col-s-3{
+        width: 25%;
+    }
+    .col-s-9{
+        width: 75%;
+    }
+    .col-s-12{
+        width: 100%;
+    }
+}
+
+/* extremely large screens */
+@media screen and (min-width: 1000px){
+    body{
+        font-size: xx-large;
+    }
+    .col-s-3{
+        width: 25%;
+    }
+    .col-s-9{
+        width: 75%;
+    }
+    .col-s-12{
+        width: 100%;
+    }
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    border: 1px solid black;
+    padding: 20px;
+    transition: transform 2s;
+    transition-timing-function: linear;
+}
+.container:hover{
+    transform: skew(20deg, 30deg);
+}
+
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: width 2s, height 2s;
+    position: absolute;
+    right: 50%;
+    top: 17%;
+    transition: width 2s, height 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 1ms;
+}
+img:hover{
+    width: 150px;
+    height: 150px;
+}
+
+p{
+    margin: 1em;
+}
+
+h1{
+    text-align: center;
+    margin: 1em;
+}
