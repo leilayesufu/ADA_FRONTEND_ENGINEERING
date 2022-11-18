@@ -24,7 +24,7 @@ body{
 
 @keyframes color{
     0% from {color: red;}
-    100% from {color: blue;}
+    100% to {color: blue;}
 }
 
 img{
