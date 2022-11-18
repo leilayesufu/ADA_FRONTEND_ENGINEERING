@@ -10,6 +10,7 @@
     width: 50%;
     border: 1px solid black;
     padding: 20px;
+    border-radius: 15px;
     transition: transform 2s;
     transition-timing-function: linear;
 }
@@ -25,13 +26,14 @@ img{
     position: absolute;
     right: 50%;
     top: 17%;
-    transition: width 2s, height 2s;
+    transition: transform 2s,width 2s, height 2s;
     transition-timing-function: ease-out;
     transition-delay: 1ms;
 }
 img:hover{
     width: 150px;
     height: 150px;
+    transform: scale(2);
 }
 
 p{
