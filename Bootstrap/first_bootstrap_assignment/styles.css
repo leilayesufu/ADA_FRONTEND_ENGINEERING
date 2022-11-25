@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Italianno&family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+
+.div1 {
+    position: relative;
+}
+
+.div1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 > .image-text {
+    position: absolute;
+    color: blue;
+    width: 100%;
+    top: 78%;
+    left: 0%;
+    text-align: center;
+}
+
+.image-text p {
+    width: 80%;
+    margin-top: 10px;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+h2 {
+    font-family: Dancing Script;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(69, 67, 67, 0.85);
+    margin-top: 10%;
+}
+
+h5 {
+    opacity: 0.7;
+    margin-top: 7%;
+    font-family: Mulish;
+    font-weight: 600;
+}
+
+.login {
+    margin: auto 26px;
+    margin-top: 70px;
+    width:90%;
+    font-family: Mulish;
+}
+
+#form-detail {
+    margin: auto 50px;
+    width: 80%;
+    margin-top: 40px;
+    font-family: Mulish;
+}
+
+#form-detail > label {
+    font-size: 13.5px;
+    font-weight: 500;
+    margin-left: 3px;
+}
+
+#form-detail input {
+    margin-top: -6px;
+}
+
+#username::placeholder,
+#password::placeholder
+{
+    color: rgb(198, 187, 187, 0.55);
+    font-size: 12.5px;
+}
+
+.text-end {
+    margin-top: -20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.btn {
+    width: 200px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.line1 {
+    width:100px;
+    height: 1.5px;
+    background-color: rgb(128, 128, 128, 0.2);
+    border: none;
+    border-radius: 2px ;
+}
+
+.line2 {
+    width:100px;
+    height: 1.5px;
+    background-color: rgb(128, 128, 128, 0.2);
+    border: none;
+    border-radius: 2px ;
+}
+
+#or {
+    margin: auto 6px;
+    margin-top: -3px;
+    color: rgb(128, 128, 128, 0.85);
+}
+
+.google {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.google span {
+    margin-left: 12px;
+    margin-top: -2px;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.account  {
+    font-size: 13.5px;
+    font-weight:600;
+    margin-top: 30px;
+}
+
+.account a {
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    width: fit-content;
+}
