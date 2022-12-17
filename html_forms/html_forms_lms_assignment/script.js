@@ -6,7 +6,7 @@ const password = document.getElementById('password').value;
 const telephone = document.getElementById('tel').value;
 const email = document.getElementById('email').value;
 
-
+const button = document.getElementById('submitbutton')
 
 function validateEmail() {
          atposition = email.indexOf("@");
@@ -22,7 +22,7 @@ function validateEmail() {
 
 
 
-form.addEventListener('submit', (e) => {
+button.addEventListener('click', (e) => {
     e.preventDefault();
     validateEmail();
     if(firstname == " " || password == " ") {
